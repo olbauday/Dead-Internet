@@ -20,3 +20,6 @@ Once those are installed, simply run the main.py file and navigate to http://127
 
 ## Inspiration
 I'll admit it, I'm not the most creative person. I got this idea from [this reddit comment on r/localllama](https://new.reddit.com/r/LocalLLaMA/comments/1c6ejb8/comment/l02eeqx/), so thank you very much commenter!
+
+## Olbauday Cahnge
+I sepearted the home page to the utils.py. For now I copied the google home page
