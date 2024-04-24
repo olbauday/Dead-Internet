@@ -1,5 +1,7 @@
 import flask
 from urllib.parse import urlparse
+from utils import get_index  
+
 
 from ReaperEngine import *
 
@@ -9,10 +11,10 @@ engine = ReaperEngine()
 @app.route("/", defaults={'path': ''})
 @app.route('/<path:path>')
 def index(path):
-    # Handle search and no seach
+    # Handle search and no search 
     query = flask.request.args.get("query")
     if not query and not path:
-        return engine.get_index()
+        return get_index()  # Call the imported function
     if query and not path:
         return engine.get_search(query)
     if path == "_export":
