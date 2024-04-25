@@ -17,6 +17,8 @@ Next you'll need to install Python if you don't already have it, I run Python 3.
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
 - [Flask](https://pypi.org/project/Flask/)
 
+- pip install -r requirements.txt
+
 Once those are installed, simply run the main.py file and navigate to http://127.0.0.1:5000 or whatever URL Flask gives you and have fun!
 
 ## Inspiration
