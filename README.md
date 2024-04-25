@@ -1,4 +1,5 @@
-# Dead-Internet
+![image](https://github.com/olbauday/Dead-Internet/assets/128622928/f33da9bc-4900-48aa-bc0e-b146322b16ee)
+
 So we all know the classic [Dead Internet Theory](https://en.wikipedia.org/wiki/Dead_Internet_theory), and if you're reading this I assume you at least know what an LLM is. Need I say much more? Yeah of course!
 
 This is a little project I threw together in a couple hours that lets you surf a completely fake web! You run a search query in the only non-generated page `/` and it generates a search results page with fake links that lead to fake websites that lead to more fake websites! 
