@@ -1,0 +1,78 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Homepage!</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0e68c; color: #333; margin: 20px; }
+        h1, h2 { color: #8b4513; }
+        a { color: #0000ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .container { background-color: #fff; padding: 20px; border: 2px solid #8b4513; border-radius: 5px; }
+        .marquee { background-color: #ffff00; color: #8b4513; font-weight: bold; padding: 5px; border: 1px solid #8b4513; margin-bottom: 10px; }
+        .rainbow {
+            display: inline-block;
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .counter { border: 1px solid #8b4513; padding: 5px; background-color: #eee; text-align: center; margin: 10px 0;}
+        .guestbook { border: 1px solid #8b4513; padding: 10px; background-color: #f0f0f0; margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="marquee">
+            <marquee>Welcome to my totally awesome page!  Updated: June 2024!</marquee>
+        </div>
+
+        <h1 style="text-align:center;">My Awesome Homepage!</h1>
+		<div style="text-align:center;">
+			<img src="favicon.ico/animated-favicon.gif" alt="Animated Favicon" style="width: 75px; height:75px;" />
+		</div>
+
+        <h2>About Me</h2>
+        <p>Hi! I'm just a regular person with an awesome personal homepage. I like collecting stamps and coding with HTML! Isn't that totally rad?</p>
+
+		<h2>My Interests</h2>
+		<ul>
+            <li><a href="favicon.ico/stamps">Collecting Stamps</a></li>
+            <li><a href="favicon.ico/coding">Web Development</a></li>
+            <li><a href="favicon.ico/cats">My Cats!</a></li>
+		</ul>
+
+        <h2>Favorite Links</h2>
+        <ul>
+           <li><a href="https://www.geocities.com/" target="_blank">Geocities Tribute</a></li>
+           <li><a href="https://www.example.com" target="_blank">My Other Favorite Site</a></li>
+        </ul>
+
+        <p>Check out my <a href="favicon.ico/guestbook">Guestbook</a>!</p>
+
+		<div class="counter">
+            <p>Visitors Since June 2024:</p>
+            <span class="rainbow">10573</span>
+        </div>
+
+        <div class="guestbook">
+            <h2>Sign My Guestbook!</h2>
+            <form action="favicon.ico/submit-guestbook" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+         <p style="text-align:center; margin-top: 20px;">&copy; 2024 Me</p>
+    </div>
+
+</body>
+</html>
+```

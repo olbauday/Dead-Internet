@@ -1,3 +1,4 @@
-Flask
+google-generativeai
 beautifulsoup4
-openai
+Flask
+python-dotenv
